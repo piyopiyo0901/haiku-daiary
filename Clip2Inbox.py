@@ -51,7 +51,7 @@ CATEGORY_RULES: Dict[str, Dict[str, List[str]]] = {
         "all": []
     },
     "shopping": {
-        "any": ["買う", "購入", "注文", "Amazon", "楽天", "価格", "セール", "比較", "クーポン", "ポイント", "在庫"],
+        "any": ["買う", "購入", "注文", "Amazon", "楽天", "価格", "セール", "クーポン", "在庫"],
         "all": []
     },
     "health": {
