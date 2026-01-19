@@ -13,4 +13,7 @@ assert.equal(case3.count, 2, 'punctuation should be removed');
 const case4 = countReadingChars('abc', '');
 assert.equal(case4.count, 3, 'latin letters should be counted when yomi is empty');
 
+const case5 = countReadingChars('きょう', '');
+assert.equal(case5.count, 2, 'small kana should not be counted');
+
 console.log('reading-count.test.js: ok');
